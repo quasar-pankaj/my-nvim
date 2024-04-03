@@ -5,5 +5,5 @@ Being a C++ and Flutter developer I am trying to configure Neovim accordingly. T
 ## How to use
 
 ``` Bash
-git clone https://github.com/quasar-pankaj/my-nvim.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim && nvim
+git clone https://github.com/quasar-pankaj/my-nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim && nvim
 ```

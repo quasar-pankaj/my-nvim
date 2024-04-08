@@ -1,8 +1,11 @@
 # My Config for neovim
 
-This project aims to build a config for C++ with CMake using CMake-tools and Flutter using flutter-tools. The primary motivation for this project is to build an IDE that is not bloated and yet has everything that a C++ and Flutter developer will need. So far the basic UI has been setup and works properly. TreeSitter, LSP, DAP, etc are still in progress.
+This project aims to build a config for C++ with CMake using CMake-tools and Flutter using flutter-tools. The primary motivation for this project is to build an IDE that is not bloated and yet has everything that a C++ and Flutter developer will need. So far the basic UI Related stuff has been setup and works properly. TreeSitter, LSP, DAP, etc are still in progress. Most importantly it aims to be a starting point of your own journey into the world of NeoVim configuration.
 
-## How to setup
+## Installation
+
+Fork this repository and run the following commands replacing the path with your own -
+eg. Replace quasar-pankaj with your username. If you have forked with a different repo name replace that as well. Your command will look similar to the following:-
 
 ``` Bash
 git clone https://github.com/quasar-pankaj/my-nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim && nvim
@@ -22,6 +25,7 @@ git clone https://github.com/quasar-pankaj/my-nvim.git "${XDG_CONFIG_HOME:-$HOME
 - [Lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 - [Toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)
 - [catppuccin](https://github.com/catppuccin/nvim)
+- [neodev.nvim](https://github.com/folke/neodev.nvim)
 
 ### LSP Related
 
@@ -36,7 +40,7 @@ git clone https://github.com/quasar-pankaj/my-nvim.git "${XDG_CONFIG_HOME:-$HOME
 
 ### Code Formatting Related
 
-- [luaformatter](https://github.com/antoinemadec/FixCursorHold.nvim)
+- [conform.nvim](https://github.com/stevearc/conform.nvim)
 
 ### Code Linting Related
 
@@ -48,6 +52,7 @@ git clone https://github.com/quasar-pankaj/my-nvim.git "${XDG_CONFIG_HOME:-$HOME
 
 ### Code Completion Related
 
+- [lsp-zero.nvim](https://github.com/VonHeikemen/lsp-zero.nvim)
 - [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
 - [cmp-buffer](https://github.com/hrsh7th/cmp-buffer)
 - [cmp-path](https://github.com/hrsh7th/cmp-path)
@@ -68,6 +73,9 @@ git clone https://github.com/quasar-pankaj/my-nvim.git "${XDG_CONFIG_HOME:-$HOME
 - [nvim-ts-rainbow](https://github.com/p00f/nvim-ts-rainbow)
 - [vim-visual-multi](https://github.com/mg979/vim-visual-multi)
 - [vim-surround](https://github.com/tpope/vim-surround)
+- [nvim-ts-rainbow](https://github.com/p00f/nvim-ts-rainbow)
+- [rainbow-parentheses.nvim](https://github.com/kien/rainbow_parentheses.vim)
+- [leap.nvim](https://github.com/ggandor/leap.nvim)
 
 ### C++ and CMake Related
 
@@ -107,3 +115,7 @@ git clone https://github.com/quasar-pankaj/my-nvim.git "${XDG_CONFIG_HOME:-$HOME
 - [vim-asterisk](https://github.com/haya14busa/vim-asterisk)
 - [vim-easy-align](https://github.com/junegunn/vim-easy-align)
 - [vim-which-key](https://github.com/liuchengxu/vim-which-key)
+
+## Key Bindings
+
+

@@ -86,11 +86,14 @@ Below list shows what has been implemented and what is pending.
 
 ### C++ and CMake Related
 
-- [ ] [CMake-tools.nvim](https://github.com/Civitasv/cmake-tools.nvim)
+- [x] [CMake-tools.nvim](https://github.com/Civitasv/cmake-tools.nvim)
 
 ### Git Related
 
 - [ ] [vim-fugitive](https://github.com/tpope/vim-fugitive)
+- [ ] [gh.nvim](https://github.com/ldelossa/gh.nvim)
+- [ ] [gh-actions.nvim](https://github.com/ldelossa/gh-actions.nvim)
+- [ ] [gist-nvim](https://github.com/mattn/gist-vim)
 
 ### Debugging Related
 
@@ -99,7 +102,7 @@ Below list shows what has been implemented and what is pending.
 
 ### Flutter Related
 
-- [ ] [flutter-tools.nvim](https://github.com/akinsho/flutter-tools.nvim)
+- [x] [flutter-tools.nvim](https://github.com/akinsho/flutter-tools.nvim)
 
 ### Unit Testing Related
 
@@ -107,16 +110,14 @@ Below list shows what has been implemented and what is pending.
 
 ### AI Related
 
-- [ ] [codeium.nvim](https://github.com/Exafunction/codeium.vim)
+- [x] [codeium.nvim](https://github.com/Exafunction/codeium.vim)
 
 ### Others
 
 - [x] [plenary.nvim](https://github.com/nvim-lua/plenary.nvim)
 - [x] [telescope-ui-select.nvim](https://github.com/nvim-telescope/telescope-ui-select.nvim)
-- [ ] [vim-surround](https://github.com/tpope/vim-surround)
 - [ ] [vim-matchup](https://github.com/andymass/vim-matchup)
 - [ ] [vim-commentary](https://github.com/tpope/vim-commentary)
-- [ ] [vim-visual-multi](https://github.com/mg979/vim-visual-multi)
 - [ ] [vim-asterisk](https://github.com/haya14busa/vim-asterisk)
 - [ ] [vim-easy-align](https://github.com/junegunn/vim-easy-align)
 

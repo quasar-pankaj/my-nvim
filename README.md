@@ -13,74 +13,79 @@ git clone https://github.com/quasar-pankaj/my-nvim.git "${XDG_CONFIG_HOME:-$HOME
 
 ## Plugins used and proposed
 
+Below list shows what has been implemented and what is pending.
+
 ### UI Related
 
-- [Lazy.nvim](https://github.com/folke/lazy.nvim)
-- [Telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
+- [x] [Lazy.nvim](https://github.com/folke/lazy.nvim)
+- [x] [Telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 - [Which-key.nvim](https://github.com/folke/which-key.nvim)
-- [Nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui)
-- [Neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim)
-- [Dressing.nvim](https://github.com/stevearc/dressing.nvim)
-- [Bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
-- [Lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
-- [Toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)
-- [catppuccin](https://github.com/catppuccin/nvim)
-- [neodev.nvim](https://github.com/folke/neodev.nvim)
+- [x] [Nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui)
+- [x] [Neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim)
+- [ ] [Dressing.nvim](https://github.com/stevearc/dressing.nvim)
+- [x] [Bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
+- [x] [Lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
+- [ ] [Toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)
+- [x] [catppuccin](https://github.com/catppuccin/nvim)
+- [ ] [neodev.nvim](https://github.com/folke/neodev.nvim)
+- [x] [noice.nvim](https://github.com/folke/noice.nvim)
 
 ### LSP Related
 
-- [lsp-zero.nvim](https://github.com/VonHeikemen/lsp-zero.nvim)
-- [nvim-lsp](https://github.com/neovim/nvim-lsp)
-- [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
-- [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
-- [mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim)
-- [mason.nvim](https://github.com/williamboman/mason.nvim)
-- [lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim)
-- [trouble.nvim](https://github.com/folke/trouble.nvim)
+- [ ] [lsp-zero.nvim](https://github.com/VonHeikemen/lsp-zero.nvim)
+- [x] [nvim-lsp](https://github.com/neovim/nvim-lsp)
+- [x] [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
+- [x] [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
+- [x] [mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim)
+- [x] [mason.nvim](https://github.com/williamboman/mason.nvim)
+- [ ] [lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim)
+- [ ] [trouble.nvim](https://github.com/folke/trouble.nvim)
 
 ### Code Formatting Related
 
-- [conform.nvim](https://github.com/stevearc/conform.nvim)
+- [ ] [conform.nvim](https://github.com/stevearc/conform.nvim)
+- [x] [none-ls.nvim](https://github.com/nvimtools/none-ls.nvim)
 
 ### Code Linting Related
 
-- [nvim-lint](https://github.com/mfussenegger/nvim-lint)
+- [ ] [nvim-lint](https://github.com/mfussenegger/nvim-lint)
+- [x] [none-ls.nvim](https://github.com/nvimtools/none-ls.nvim)
+
 
 ### Syntax Highlighting Related
 
-- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- [x] [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 
 ### Code Completion Related
 
-- [lsp-zero.nvim](https://github.com/VonHeikemen/lsp-zero.nvim)
-- [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
-- [cmp-buffer](https://github.com/hrsh7th/cmp-buffer)
-- [cmp-path](https://github.com/hrsh7th/cmp-path)
-- [cmp-nvim-lua](https://github.com/hrsh7th/cmp-nvim-lua)
-- [cmp-cmdline](https://github.com/hrsh7th/cmp-cmdline)
-- [cmp-look](https://github.com/octaltree/cmp-look)
+- [ ] [lsp-zero.nvim](https://github.com/VonHeikemen/lsp-zero.nvim)
+- [x] [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
+- [x] [cmp-buffer](https://github.com/hrsh7th/cmp-buffer)
+- [x] [cmp-path](https://github.com/hrsh7th/cmp-path)
+- [x] [cmp-nvim-lua](https://github.com/hrsh7th/cmp-nvim-lua)
+- [ ] [cmp-cmdline](https://github.com/hrsh7th/cmp-cmdline)
+- [ ] [cmp-look](https://github.com/octaltree/cmp-look)
 
 ### Code Refactoring Related
 
-- [refactoring.nvim](https://github.com/ThePrimeagen/refactoring.nvim)
+- [ ] [refactoring.nvim](https://github.com/ThePrimeagen/refactoring.nvim)
 
 ### Editing Related
 
-- [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
-- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
-- [Comment.nvim](https://github.com/numToStr/Comment.nvim)
-- [AutoSave.nvim](https://github.com/Pocco81/AutoSave.nvim)
-- [nvim-ts-rainbow](https://github.com/p00f/nvim-ts-rainbow)
-- [vim-visual-multi](https://github.com/mg979/vim-visual-multi)
-- [vim-surround](https://github.com/tpope/vim-surround)
-- [nvim-ts-rainbow](https://github.com/p00f/nvim-ts-rainbow)
-- [rainbow-parentheses.nvim](https://github.com/kien/rainbow_parentheses.vim)
-- [leap.nvim](https://github.com/ggandor/leap.nvim)
-
+- [ ] [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
+- [x] [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- [ ] [Comment.nvim](https://github.com/numToStr/Comment.nvim)
+- [ ] [AutoSave.nvim](https://github.com/Pocco81/AutoSave.nvim)
+- [ ] [nvim-ts-rainbow](https://github.com/p00f/nvim-ts-rainbow)
+- [ ] [vim-visual-multi](https://github.com/mg979/vim-visual-multi)
+- [ ] [vim-surround](https://github.com/tpope/vim-surround)
+- [ ] [rainbow-parentheses.nvim](https://github.com/kien/rainbow_parentheses.vim)
+- [ ] [leap.nvim](https://github.com/ggandor/leap.nvim)
+- [ ] [illuminate.nvim](https://github.com/RRethy/vim-illuminate)
+- [ ] [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
 ### C++ and CMake Related
 
 - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
-- [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
 - [CMake-tools.nvim](https://github.com/simrat39/cmp-cmake)
 
 ### Git Related

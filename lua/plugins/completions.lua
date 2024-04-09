@@ -24,6 +24,7 @@ return {
 			"hrsh7th/cmp-path",
 			"hrsh7th/cmp-cmdline",
 			"hrsh7th/cmp-nvim-lua",
+      "hrsh7th/nvim-cmp",
 			"saadparwaiz1/cmp_luasnip",
       "L3MON4D3/LuaSnip",
 		},
@@ -40,7 +41,7 @@ return {
 						require('luasnip').lsp_expand(args.body) -- For `luasnip` users.
 						-- require('snippy').expand_snippet(args.body) -- For `snippy` users.
 						-- vim.fn["UltiSnips#Anon"](args.body) -- For `ultisnips` users.
-						-- vim.snippet.expand(args.body) -- For native neovim snippets (Neovim v0.10+)
+						vim.snippet.expand(args.body) -- For native neovim snippets (Neovim v0.10+)
 					end,
 				},
 				window = {
@@ -55,11 +56,12 @@ return {
 					["<CR>"] = cmp.mapping.confirm({ select = true }), -- Accept currently selected item. Set `select` to `false` to only confirm explicitly selected items.
 				}),
 				sources = cmp.config.sources({
-					-- { name = "nvim_lsp" },
+					{ name = "nvim_lsp" },
 					-- { name = "vsnip" }, -- For vsnip users.
 					{ name = 'luasnip' }, -- For luasnip users.
 					-- { name = 'ultisnips' }, -- For ultisnips users.
 					-- { name = 'snippy' }, -- For snippy users.
+          { name = "cmp" },
 				}, {
 					{ name = "buffer" },
 				}),
@@ -87,6 +89,9 @@ return {
 				mapping = cmp.mapping.preset.cmdline(),
 				sources = cmp.config.sources({
 					{ name = "path" },
+          { name = "nvim_lsp" },
+          { name = "luasnip" },
+          { name = "nvim_lua" },
 				}, {
 					{ name = "cmdline" },
 				}),
@@ -94,11 +99,16 @@ return {
 			})
 
 			-- Set up lspconfig.
-			--local capabilities = require("cmp_nvim_lsp").default_capabilities()
+			local capabilities = require("cmp_nvim_lsp").default_capabilities()
 			-- Replace <YOUR_LSP_SERVER> with each lsp server you've enabled.
-			--require("lspconfig")["<YOUR_LSP_SERVER>"].setup({
-				--capabilities = capabilities,
-			--})
+      local lspconfig = require('lspconfig')
+			lspconfig["lua_ls"].setup({
+				capabilities = capabilities,
+			})
+
+      lspconfig["clangd"].setup({
+        capabilities = capabilities,
+      })
 		end,
 	},
 }

@@ -19,7 +19,7 @@ Below list shows what has been implemented and what is pending.
 
 - [x] [Lazy.nvim](https://github.com/folke/lazy.nvim)
 - [x] [Telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
-- [Which-key.nvim](https://github.com/folke/which-key.nvim)
+- [x] [Which-key.nvim](https://github.com/folke/which-key.nvim)
 - [x] [Nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui)
 - [x] [Neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim)
 - [ ] [Dressing.nvim](https://github.com/stevearc/dressing.nvim)
@@ -32,7 +32,6 @@ Below list shows what has been implemented and what is pending.
 
 ### LSP Related
 
-- [ ] [lsp-zero.nvim](https://github.com/VonHeikemen/lsp-zero.nvim)
 - [x] [nvim-lsp](https://github.com/neovim/nvim-lsp)
 - [x] [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
 - [x] [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
@@ -65,6 +64,7 @@ Below list shows what has been implemented and what is pending.
 - [x] [cmp-nvim-lua](https://github.com/hrsh7th/cmp-nvim-lua)
 - [ ] [cmp-cmdline](https://github.com/hrsh7th/cmp-cmdline)
 - [ ] [cmp-look](https://github.com/octaltree/cmp-look)
+- [x] [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 
 ### Code Refactoring Related
 
@@ -72,54 +72,53 @@ Below list shows what has been implemented and what is pending.
 
 ### Editing Related
 
-- [ ] [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
+- [x] [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
 - [x] [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
-- [ ] [Comment.nvim](https://github.com/numToStr/Comment.nvim)
+- [x] [Comment.nvim](https://github.com/numToStr/Comment.nvim)
 - [ ] [AutoSave.nvim](https://github.com/Pocco81/AutoSave.nvim)
-- [ ] [nvim-ts-rainbow](https://github.com/p00f/nvim-ts-rainbow)
+- [x] [nvim-ts-rainbow2](https://github.com/HiPhish/nvim-ts-rainbow2)
 - [ ] [vim-visual-multi](https://github.com/mg979/vim-visual-multi)
-- [ ] [vim-surround](https://github.com/tpope/vim-surround)
+- [x] [vim-surround](https://github.com/tpope/vim-surround)
 - [ ] [rainbow-parentheses.nvim](https://github.com/kien/rainbow_parentheses.vim)
-- [ ] [leap.nvim](https://github.com/ggandor/leap.nvim)
-- [ ] [illuminate.nvim](https://github.com/RRethy/vim-illuminate)
-- [ ] [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
+- [x] [leap.nvim](https://github.com/ggandor/leap.nvim)
+- [x] [illuminate.nvim](https://github.com/RRethy/vim-illuminate)
+- [x] [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
+
 ### C++ and CMake Related
 
-- [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
-- [CMake-tools.nvim](https://github.com/simrat39/cmp-cmake)
+- [ ] [CMake-tools.nvim](https://github.com/Civitasv/cmake-tools.nvim)
 
 ### Git Related
 
-- [vim-fugitive](https://github.com/tpope/vim-fugitive)
+- [ ] [vim-fugitive](https://github.com/tpope/vim-fugitive)
 
 ### Debugging Related
 
-- [nvim-dap](https://github.com/mfussenegger/nvim-dap)
-- [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui)
+- [x] [nvim-dap](https://github.com/mfussenegger/nvim-dap)
+- [x] [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui)
 
 ### Flutter Related
 
-- [flutter-tools.nvim](https://github.com/akinsho/flutter-tools.nvim)
+- [ ] [flutter-tools.nvim](https://github.com/akinsho/flutter-tools.nvim)
 
 ### Unit Testing Related
 
-- [neotest](https://github.com/nvim-neotest/neotest)
+- [x] [neotest](https://github.com/nvim-neotest/neotest)
 
 ### AI Related
 
-- [codeium.nvim](https://github.com/Exafunction/codeium.vim)
+- [ ] [codeium.nvim](https://github.com/Exafunction/codeium.vim)
 
 ### Others
 
-- [plenary.nvim](https://github.com/nvim-lua/plenary.nvim)
-- [telescope-ui-select.nvim](https://github.com/nvim-telescope/telescope-ui-select.nvim)
-- [vim-surround](https://github.com/tpope/vim-surround)
-- [vim-matchup](https://github.com/andymass/vim-matchup)
-- [vim-commentary](https://github.com/tpope/vim-commentary)
-- [vim-visual-multi](https://github.com/mg979/vim-visual-multi)
-- [vim-asterisk](https://github.com/haya14busa/vim-asterisk)
-- [vim-easy-align](https://github.com/junegunn/vim-easy-align)
-- [vim-which-key](https://github.com/liuchengxu/vim-which-key)
+- [x] [plenary.nvim](https://github.com/nvim-lua/plenary.nvim)
+- [x] [telescope-ui-select.nvim](https://github.com/nvim-telescope/telescope-ui-select.nvim)
+- [ ] [vim-surround](https://github.com/tpope/vim-surround)
+- [ ] [vim-matchup](https://github.com/andymass/vim-matchup)
+- [ ] [vim-commentary](https://github.com/tpope/vim-commentary)
+- [ ] [vim-visual-multi](https://github.com/mg979/vim-visual-multi)
+- [ ] [vim-asterisk](https://github.com/haya14busa/vim-asterisk)
+- [ ] [vim-easy-align](https://github.com/junegunn/vim-easy-align)
 
 ## Key Bindings
 

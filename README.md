@@ -13,7 +13,7 @@ git clone https://github.com/quasar-pankaj/my-nvim.git "${XDG_CONFIG_HOME:-$HOME
 
 ## Plugins used and proposed
 
-Below list shows what has been implemented and what is pending.
+Below list shows what has been implemented and what is pending. The ones left out are the ones I am not sure if I should include.
 
 ### UI Related
 
@@ -77,7 +77,7 @@ Below list shows what has been implemented and what is pending.
 - [x] [Comment.nvim](https://github.com/numToStr/Comment.nvim)
 - [ ] [AutoSave.nvim](https://github.com/Pocco81/AutoSave.nvim)
 - [x] [nvim-ts-rainbow2](https://github.com/HiPhish/nvim-ts-rainbow2)
-- [ ] [vim-visual-multi](https://github.com/mg979/vim-visual-multi)
+- [x] [vim-visual-multi](https://github.com/mg979/vim-visual-multi)
 - [x] [vim-surround](https://github.com/tpope/vim-surround)
 - [ ] [rainbow-parentheses.nvim](https://github.com/kien/rainbow_parentheses.vim)
 - [x] [leap.nvim](https://github.com/ggandor/leap.nvim)
@@ -94,6 +94,7 @@ Below list shows what has been implemented and what is pending.
 - [ ] [gh.nvim](https://github.com/ldelossa/gh.nvim)
 - [ ] [gh-actions.nvim](https://github.com/ldelossa/gh-actions.nvim)
 - [ ] [gist-nvim](https://github.com/mattn/gist-vim)
+- [ ] [octo.nvim](https://github.com/pwntester/octo.nvim)
 
 ### Debugging Related
 

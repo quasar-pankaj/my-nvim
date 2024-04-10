@@ -90,7 +90,7 @@ Below list shows what has been implemented and what is pending. The ones left ou
 
 ### Git Related
 
-- [ ] [vim-fugitive](https://github.com/tpope/vim-fugitive)
+- [x] [vim-fugitive](https://github.com/tpope/vim-fugitive)
 - [ ] [gh.nvim](https://github.com/ldelossa/gh.nvim)
 - [ ] [gh-actions.nvim](https://github.com/ldelossa/gh-actions.nvim)
 - [ ] [gist-nvim](https://github.com/mattn/gist-vim)

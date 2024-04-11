@@ -155,6 +155,9 @@ return {
 					-- ['C'] = 'close_all_subnodes',
 					["z"] = "close_all_nodes",
 					--["Z"] = "expand_all_nodes",
+          ['e'] = function() vim.api.nvim_exec('Neotree focus filesystem left', true) end,
+          ['b'] = function() vim.api.nvim_exec('Neotree focus buffers left', true) end,
+          ['g'] = function() vim.api.nvim_exec('Neotree focus git_status left', true) end,
 					["a"] = {
 						"add",
 						-- this command supports BASH style brace expansion ("x{a,b,c}" -> xa,xb,xc). see `:h neo-tree-file-actions` for details

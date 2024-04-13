@@ -22,6 +22,8 @@ vim.opt.undofile = true
 vim.opt.incsearch = true
 vim.opt.updatetime = 50
 vim.opt.virtualedit = "block"
+vim.opt.splitright = true
+vim.opt.splitbelow = true
 
 vim.g.loaded_netrwPlugin = 1
 vim.g.loaded_netrw = 1

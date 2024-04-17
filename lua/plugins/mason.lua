@@ -1,40 +1,35 @@
 return {
-  "williamboman/mason.nvim",
-  dependencies = {
-    "williamboman/mason-lspconfig.nvim",
+  {
+    "williamboman/mason.nvim",
+    event = "VeryLazy",
+    config = function()
+      require("mason").setup({
+        ui = {
+          border = "rounded",
+          icons = {
+            package_installed = "✓",
+            package_pending = "➜",
+            package_uninstalled = "✗",
+          },
+        }
+      })
+    end,
   },
-  config = function()
-    require("mason").setup({
-      ui = {
-        border = "rounded",
-        icons = {
-          package_installed = "✓",
-          package_pending = "➜",
-          package_uninstalled = "✗",
-        },
-      },
-    })
-
-    require("mason-lspconfig").setup({
-      automatic_installation = true,
+  {
+    "williamboman/mason-lspconfig.nvim",
+    dependencies = {
+      "williamboman/mason.nvim",
+    },
+    event = "VeryLazy",
+    opts = {
       ensure_installed = {
         "clangd",
         "lua_ls",
       },
-    })
-
-    require("lspconfig").lua_ls.setup({
-      capabilities = require("cmp_nvim_lsp").default_capabilities(),
-      settings = {
-        Lua = {
-          diagnostics = {
-            globals = { "vim" },
-          },
-        },
-      },
-    })
-    require("lspconfig").clangd.setup({
-      capabilities = require("cmp_nvim_lsp").default_capabilities(),
-    })
-  end
+      automatic_installation = true,
+    },
+    config = function()
+      require("mason-lspconfig").setup({})
+    end,
+  },
 }

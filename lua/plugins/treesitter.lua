@@ -3,7 +3,7 @@ return {
   event = { "BufReadPre", "BufNewFile" },
   build = ":TSUpdate",
   config = function()
-    require("nvim-treesitter.configs").setup({
+    require("ts_context_commentstring").setup({
       -- ensure_installed = "all",
       ensure_installed = { "c", "cpp", "lua", "cmake" },
       sync_install = false,
@@ -17,7 +17,6 @@ return {
         enable = true,
       },
       context_commentstring = {
-        enable = true,
         enable_autocmd = false,
       },
       incremental_selection = {

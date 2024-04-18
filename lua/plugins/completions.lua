@@ -16,6 +16,7 @@ return {
       end,
     }
   },
+  "onsails/lspkind-nvim",
   config = function()
     local cmp = require("cmp")
     local luasnip = require("luasnip")

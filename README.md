@@ -33,28 +33,27 @@ Following list shows what has been implemented and what is pending. The ones lef
 
 ### LSP Related
 
-- [ ] [nvim-lsp](https://github.com/neovim/nvim-lsp)
-- [ ] [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
+- [x] [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
 - [ ] [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
-- [ ] [mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim)
-- [ ] [mason.nvim](https://github.com/williamboman/mason.nvim)
+- [x] [mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim)
+- [x] [mason.nvim](https://github.com/williamboman/mason.nvim)
 - [ ] [lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim)
 - [ ] [trouble.nvim](https://github.com/folke/trouble.nvim)
 
 ### Code Formatting Related
 
-- [ ] [conform.nvim](https://github.com/stevearc/conform.nvim)
+- [x] [conform.nvim](https://github.com/stevearc/conform.nvim)
 - [ ] [none-ls.nvim](https://github.com/nvimtools/none-ls.nvim)
 
 ### Code Linting Related
 
-- [ ] [nvim-lint](https://github.com/mfussenegger/nvim-lint)
+- [x] [nvim-lint](https://github.com/mfussenegger/nvim-lint)
 - [ ] [none-ls.nvim](https://github.com/nvimtools/none-ls.nvim)
 
 
 ### Syntax Highlighting Related
 
-- [ ] [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- [x] [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 
 ### Code Completion Related
 
@@ -77,7 +76,7 @@ Following list shows what has been implemented and what is pending. The ones lef
 ### Editing Related
 
 - [ ] [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
-- [ ] [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- [x] [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [ ] [Comment.nvim](https://github.com/numToStr/Comment.nvim)
 - [ ] [AutoSave.nvim](https://github.com/Pocco81/AutoSave.nvim)
 - [ ] [nvim-ts-rainbow2](https://github.com/HiPhish/nvim-ts-rainbow2)

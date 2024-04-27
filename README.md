@@ -13,7 +13,7 @@ git clone https://github.com/quasar-pankaj/my-nvim.git "${XDG_CONFIG_HOME:-$HOME
 
 ## Plugins used and proposed
 
-Below list shows what has been implemented and what is pending. The ones left out are the ones I am not sure if I should include.
+Following list shows what has been implemented and what is pending. The ones left out are the ones I am not sure if I should include.
 
 ### UI Related
 
@@ -29,7 +29,7 @@ Below list shows what has been implemented and what is pending. The ones left ou
 - [x] [catppuccin](https://github.com/catppuccin/nvim)
 - [ ] [neodev.nvim](https://github.com/folke/neodev.nvim)
 - [ ] [noice.nvim](https://github.com/folke/noice.nvim)
-- [ ] [vim-maximizer]()
+- [ ] [vim-maximizer](https://github.com/szw/vim-maximizer)
 
 ### LSP Related
 
@@ -66,9 +66,9 @@ Below list shows what has been implemented and what is pending. The ones left ou
 - [ ] [cmp-cmdline](https://github.com/hrsh7th/cmp-cmdline)
 - [ ] [cmp-look](https://github.com/octaltree/cmp-look)
 - [ ] [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
-- [ ] [luasnip]()
-- [ ] [cmp-luasnip]()
-- [ ] [friendly-snippets]()
+- [ ] [luasnip](https://github.com/L3MON4D3/LuaSnip)
+- [ ] [cmp-luasnip](https://github.com/saadparwaiz1/cmp_luasnip)
+- [ ] [friendly-snippets](https://github.com/rafamadriz/friendly-snippets)
 
 ### Code Refactoring Related
 
@@ -87,10 +87,10 @@ Below list shows what has been implemented and what is pending. The ones left ou
 - [ ] [leap.nvim](https://github.com/ggandor/leap.nvim)
 - [ ] [illuminate.nvim](https://github.com/RRethy/vim-illuminate)
 - [ ] [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
-- [ ] [todo-comments]()
-- [ ] [trouble]()
-- [ ] [surround]()
-- [ ] [substitute]()
+- [ ] [todo-comments](https://github.com/folke/todo-comments.nvim)
+- [ ] [trouble](https://github.com/folke/trouble.nvim)
+- [ ] [nvim-surround](https://github.com/kylechui/nvim-surround)
+- [ ] [substitute](https://github.com/gbprod/substitute.nvim)
 
 ### C++ and CMake Related
 
@@ -103,16 +103,16 @@ Below list shows what has been implemented and what is pending. The ones left ou
 - [ ] [gh-actions.nvim](https://github.com/ldelossa/gh-actions.nvim)
 - [ ] [gist-nvim](https://github.com/mattn/gist-vim)
 - [ ] [octo.nvim](https://github.com/pwntester/octo.nvim)
-- [ ] [lazy-git]()
+- [ ] [lazygit](https://github.com/kdheepak/lazygit.nvim)
 
 ### Debugging Related
 
 - [ ] [nvim-dap](https://github.com/mfussenegger/nvim-dap)
 - [ ] [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui)
-- [ ] [telescope-dap]()
-- [ ] [cmp-dap]()
-- [ ] [nvim-dap-repl-highlights]()
-- [ ] [mason-nvim-dap]()
+- [ ] [telescope-dap](https://github.com/nvim-telescope/telescope-dap.nvim)
+- [ ] [cmp-dap](https://github.com/rcarriga/cmp-dap)
+- [ ] [nvim-dap-repl-highlights](https://github.com/LiadOz/nvim-dap-repl-highlights)
+- [ ] [mason-nvim-dap](https://github.com/jay-babu/mason-nvim-dap.nvim)
 
 ### Flutter Related
 

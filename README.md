@@ -100,7 +100,7 @@ Following list shows what has been implemented and what is pending. The ones lef
 - [ ] [gh.nvim](https://github.com/ldelossa/gh.nvim)
 - [ ] [gh-actions.nvim](https://github.com/ldelossa/gh-actions.nvim)
 - [ ] [gist-nvim](https://github.com/mattn/gist-vim)
-- [ ] [octo.nvim](https://github.com/pwntester/octo.nvim)
+- [x] [octo.nvim](https://github.com/pwntester/octo.nvim)
 - [ ] [lazygit](https://github.com/kdheepak/lazygit.nvim)
 
 ### Debugging Related

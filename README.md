@@ -71,7 +71,7 @@ Following list shows what has been implemented and what is pending. The ones lef
 
 ### Code Refactoring Related
 
-- [ ] [refactoring.nvim](https://github.com/ThePrimeagen/refactoring.nvim)
+- [x] [refactoring.nvim](https://github.com/ThePrimeagen/refactoring.nvim)
 
 ### Editing Related
 
@@ -122,7 +122,7 @@ Following list shows what has been implemented and what is pending. The ones lef
 
 ### AI Related
 
-- [ ] [codeium.nvim](https://github.com/Exafunction/codeium.vim)
+- [x] [codeium.nvim](https://github.com/Exafunction/codeium.vim)
 
 ### Others
 

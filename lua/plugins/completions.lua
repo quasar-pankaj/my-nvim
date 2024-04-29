@@ -3,6 +3,7 @@ return {
     "hrsh7th/cmp-nvim-lsp",
     "cmp-buffer",
     "cmp-path",
+    "hrsh7th/cmp-nvim-lua",
   },
   {
     "hrsh7th/nvim-cmp",
@@ -41,6 +42,7 @@ return {
           -- { name = 'ultisnips' }, -- For ultisnips users.
           -- { name = 'snippy' }, -- For snippy users.
           { name = 'path' },
+          { name = 'nvim_lua' },
         }, {
           { name = 'buffer' },
         })

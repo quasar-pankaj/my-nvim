@@ -38,7 +38,7 @@ Following list shows what has been implemented and what is pending. The ones lef
 - [x] [mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim)
 - [x] [mason.nvim](https://github.com/williamboman/mason.nvim)
 - [ ] [lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim)
-- [ ] [trouble.nvim](https://github.com/folke/trouble.nvim)
+- [x] [trouble.nvim](https://github.com/folke/trouble.nvim)
 
 ### Code Formatting Related
 
@@ -61,7 +61,7 @@ Following list shows what has been implemented and what is pending. The ones lef
 - [x] [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
 - [x] [cmp-buffer](https://github.com/hrsh7th/cmp-buffer)
 - [x] [cmp-path](https://github.com/hrsh7th/cmp-path)
-- [ ] [cmp-nvim-lua](https://github.com/hrsh7th/cmp-nvim-lua)
+- [x] [cmp-nvim-lua](https://github.com/hrsh7th/cmp-nvim-lua)
 - [ ] [cmp-cmdline](https://github.com/hrsh7th/cmp-cmdline)
 - [ ] [cmp-look](https://github.com/octaltree/cmp-look)
 - [x] [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
@@ -75,21 +75,20 @@ Following list shows what has been implemented and what is pending. The ones lef
 
 ### Editing Related
 
-- [ ] [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
+- [x] [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
 - [x] [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
-- [ ] [Comment.nvim](https://github.com/numToStr/Comment.nvim)
-- [ ] [AutoSave.nvim](https://github.com/Pocco81/AutoSave.nvim)
+- [x] [Comment.nvim](https://github.com/numToStr/Comment.nvim)
+- [x] [AutoSave.nvim](https://github.com/Pocco81/AutoSave.nvim)
 - [ ] [nvim-ts-rainbow2](https://github.com/HiPhish/nvim-ts-rainbow2)
 - [ ] [vim-visual-multi](https://github.com/mg979/vim-visual-multi)
-- [ ] [vim-surround](https://github.com/tpope/vim-surround)
 - [ ] [rainbow-parentheses.nvim](https://github.com/kien/rainbow_parentheses.vim)
 - [ ] [leap.nvim](https://github.com/ggandor/leap.nvim)
-- [ ] [illuminate.nvim](https://github.com/RRethy/vim-illuminate)
-- [ ] [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
-- [ ] [todo-comments](https://github.com/folke/todo-comments.nvim)
-- [ ] [trouble](https://github.com/folke/trouble.nvim)
-- [ ] [nvim-surround](https://github.com/kylechui/nvim-surround)
-- [ ] [substitute](https://github.com/gbprod/substitute.nvim)
+- [x] [illuminate.nvim](https://github.com/RRethy/vim-illuminate)
+- [x] [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
+- [x] [todo-comments](https://github.com/folke/todo-comments.nvim)
+- [x] [trouble](https://github.com/folke/trouble.nvim)
+- [x] [nvim-surround](https://github.com/kylechui/nvim-surround)
+- [x] [substitute](https://github.com/gbprod/substitute.nvim)
 
 ### C++ and CMake Related
 
@@ -130,7 +129,6 @@ Following list shows what has been implemented and what is pending. The ones lef
 - [x] [plenary.nvim](https://github.com/nvim-lua/plenary.nvim)
 - [x] [telescope-ui-select.nvim](https://github.com/nvim-telescope/telescope-ui-select.nvim)
 - [ ] [vim-matchup](https://github.com/andymass/vim-matchup)
-- [ ] [vim-commentary](https://github.com/tpope/vim-commentary)
 - [ ] [vim-asterisk](https://github.com/haya14busa/vim-asterisk)
 - [ ] [vim-easy-align](https://github.com/junegunn/vim-easy-align)
 

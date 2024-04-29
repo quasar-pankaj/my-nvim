@@ -20,21 +20,21 @@ Following list shows what has been implemented and what is pending. The ones lef
 - [x] [Lazy.nvim](https://github.com/folke/lazy.nvim)
 - [x] [Telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 - [ ] [Which-key.nvim](https://github.com/folke/which-key.nvim)
-- [ ] [Nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui)
+- [x] [Nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui)
 - [x] [Neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim)
 - [x] [Dressing.nvim](https://github.com/stevearc/dressing.nvim)
 - [x] [Bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
 - [x] [Lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 - [ ] [Toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)
 - [x] [catppuccin](https://github.com/catppuccin/nvim)
-- [ ] [neodev.nvim](https://github.com/folke/neodev.nvim)
+- [x] [neodev.nvim](https://github.com/folke/neodev.nvim)
 - [ ] [noice.nvim](https://github.com/folke/noice.nvim)
 - [ ] [vim-maximizer](https://github.com/szw/vim-maximizer)
 
 ### LSP Related
 
 - [x] [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
-- [ ] [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
+- [x] [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
 - [x] [mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim)
 - [x] [mason.nvim](https://github.com/williamboman/mason.nvim)
 - [ ] [lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim)
@@ -58,16 +58,16 @@ Following list shows what has been implemented and what is pending. The ones lef
 ### Code Completion Related
 
 - [ ] [lsp-zero.nvim](https://github.com/VonHeikemen/lsp-zero.nvim)
-- [ ] [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
-- [ ] [cmp-buffer](https://github.com/hrsh7th/cmp-buffer)
-- [ ] [cmp-path](https://github.com/hrsh7th/cmp-path)
+- [x] [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
+- [x] [cmp-buffer](https://github.com/hrsh7th/cmp-buffer)
+- [x] [cmp-path](https://github.com/hrsh7th/cmp-path)
 - [ ] [cmp-nvim-lua](https://github.com/hrsh7th/cmp-nvim-lua)
 - [ ] [cmp-cmdline](https://github.com/hrsh7th/cmp-cmdline)
 - [ ] [cmp-look](https://github.com/octaltree/cmp-look)
-- [ ] [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
-- [ ] [luasnip](https://github.com/L3MON4D3/LuaSnip)
-- [ ] [cmp-luasnip](https://github.com/saadparwaiz1/cmp_luasnip)
-- [ ] [friendly-snippets](https://github.com/rafamadriz/friendly-snippets)
+- [x] [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
+- [x] [luasnip](https://github.com/L3MON4D3/LuaSnip)
+- [x] [cmp-luasnip](https://github.com/saadparwaiz1/cmp_luasnip)
+- [x] [friendly-snippets](https://github.com/rafamadriz/friendly-snippets)
 
 ### Code Refactoring Related
 
@@ -106,8 +106,8 @@ Following list shows what has been implemented and what is pending. The ones lef
 
 ### Debugging Related
 
-- [ ] [nvim-dap](https://github.com/mfussenegger/nvim-dap)
-- [ ] [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui)
+- [x] [nvim-dap](https://github.com/mfussenegger/nvim-dap)
+- [x] [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui)
 - [ ] [telescope-dap](https://github.com/nvim-telescope/telescope-dap.nvim)
 - [ ] [cmp-dap](https://github.com/rcarriga/cmp-dap)
 - [ ] [nvim-dap-repl-highlights](https://github.com/LiadOz/nvim-dap-repl-highlights)
@@ -119,7 +119,7 @@ Following list shows what has been implemented and what is pending. The ones lef
 
 ### Unit Testing Related
 
-- [ ] [neotest](https://github.com/nvim-neotest/neotest)
+- [x] [neotest](https://github.com/nvim-neotest/neotest)
 
 ### AI Related
 

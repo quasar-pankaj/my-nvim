@@ -92,7 +92,7 @@ Following list shows what has been implemented and what is pending. The ones lef
 
 ### C++ and CMake Related
 
-- [ ] [CMake-tools.nvim](https://github.com/Civitasv/cmake-tools.nvim)
+- [x] [CMake-tools.nvim](https://github.com/Civitasv/cmake-tools.nvim)
 
 ### Git Related
 
@@ -114,7 +114,7 @@ Following list shows what has been implemented and what is pending. The ones lef
 
 ### Flutter Related
 
-- [ ] [flutter-tools.nvim](https://github.com/akinsho/flutter-tools.nvim)
+- [x] [flutter-tools.nvim](https://github.com/akinsho/flutter-tools.nvim)
 
 ### Unit Testing Related
 

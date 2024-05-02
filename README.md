@@ -2,6 +2,13 @@
 
 This project aims to build a config for C++ with CMake using CMake-tools and Flutter using flutter-tools. The primary motivation for this project is to build an IDE that is not bloated and yet has everything that a C++ and Flutter developer will need. So far the basic UI Related stuff has been setup and works properly. TreeSitter, LSP, DAP, etc are still in progress. Most importantly it aims to be a starting point of your own journey into the world of NeoVim configuration.
 
+## Prerequisites
+
+Make sure you have the following installed on your system:-
+1. RipGrep
+2. LazyGit
+3. Github-cli
+
 ## Installation
 
 Fork this repository and run the following commands replacing the path with your own -

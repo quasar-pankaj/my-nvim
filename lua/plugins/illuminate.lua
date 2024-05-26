@@ -1,5 +1,6 @@
 return {
   "RRethy/vim-illuminate",
+  event = {"BufReadPre", "BufEnter"},
   config = function()
     -- default configuration
     require('illuminate').configure({

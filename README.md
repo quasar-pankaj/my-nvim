@@ -130,6 +130,7 @@ Following list shows what has been implemented and what is pending. The ones lef
 ### AI Related
 
 - [x] [codeium.nvim](https://github.com/Exafunction/codeium.vim)
+- [x] [avante.nvim](https://github.com/yetone/avante.nvim)
 
 ### Others
 

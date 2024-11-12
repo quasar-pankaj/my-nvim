@@ -131,6 +131,7 @@ Following list shows what has been implemented and what is pending. The ones lef
 
 - [x] [codeium.nvim](https://github.com/Exafunction/codeium.vim)
 - [x] [avante.nvim](https://github.com/yetone/avante.nvim)
+- [x] [supermaven-nvim](https://github.com/supermaven-inc/supermaven-nvim)
 
 ### Others
 

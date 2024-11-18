@@ -7,6 +7,16 @@ return {
   },
   {
     "hrsh7th/nvim-cmp",
+    dependencies = {
+      {
+        "MattiasMTS/cmp-dbee",
+        dependencies = {
+          {"kndndrj/nvim-dbee"}
+        },
+        ft = "sql", -- optional but good to have
+        opts = {}, -- needed
+      },
+    },
     event = { "BufReadPre", "BufNew" },
     config = function()
       -- Set up nvim-cmp.
@@ -43,6 +53,7 @@ return {
           -- { name = 'snippy' }, -- For snippy users.
           { name = 'path' },
           { name = 'nvim_lua' },
+          { name = 'cmp-dbee' },
         }, {
           { name = 'buffer' },
         })

@@ -141,6 +141,10 @@ Following list shows what has been implemented and what is pending. The ones lef
 - [ ] [vim-asterisk](https://github.com/haya14busa/vim-asterisk)
 - [ ] [vim-easy-align](https://github.com/junegunn/vim-easy-align)
 
+### Database Related
+
+- [x] [nvim-dbee](https://github.com/kndndrj/nvim-dbee)
+
 ## Key Bindings
 
 

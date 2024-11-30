@@ -5,10 +5,10 @@ return {
   version = false, -- set this if you want to always pull the latest change
   opts = {
     -- add any opts here
-    provider = "gemini",
-    auto_suggestion_provider = "gemini",
+    provider = "openai",
+    auto_suggestion_provider = "openai",
     dual_boost = {
-      enabled = true,
+      enabled = false,
       first_provider = "openai",
       second_provider = "gemini",
       prompt = "Based on the two reference outputs below, generate a response that incorporates elements from both but reflects your own judgment and unique perspective. Do not provide any explanation, just give the response directly. Reference Output 1: [{{provider1_output}}], Reference Output 2: [{{provider2_output}}]",
